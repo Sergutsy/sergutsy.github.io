@@ -1,0 +1,181 @@
+﻿header{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	background:green;
+	color:white;
+	text-align:center;
+	padding:10px;
+	height:100px;
+	font-size: x-large;
+	font-family:Arial;
+}
+.comment{
+	border-radius:20px;
+	background-color:green;
+	color:white;
+	padding:20px;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+	font-family:Arial;
+}
+.ava{
+	width:54px;
+	height:54px;
+	border-radius:28px;
+	background-image:url("../Шрифт и авки/userphoto.png");
+	background-size:contain;
+	float:left;
+}
+.user{
+	border-radius:28px;
+	background:darkgreen;
+	float:left;
+}
+.Username{
+	padding-left:10px;
+	padding-right:10px;
+	display:inline-block;
+	color:white;
+	font-family:Arial;
+}
+.data{
+	float:right;
+}
+.text{
+	background:darkgreen;
+	border-radius:10px;
+	margin-top:60px;
+	margin-bottom:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:25px;
+	padding-right:25px;
+	text-indent:30px;
+}
+.like{
+	display:inline-block;
+	margin-left:5%;
+	width:200px;
+	
+	background:darkgreen;
+	border-radius:10px;
+	padding:5px;
+}
+.like p{
+	display:inline;
+}
+.admin_comment{
+	border-radius:0 0 20px 20px;
+	background-color:darkgreen;
+	color:white;
+	padding:10px 25px 10px 25px;
+	margin-left:100px;
+	margin-right:100px;
+	text-indent:30px;
+	font-family:Arial;
+}
+nav{
+	margin-top:120px;
+	background:darkgreen;
+	border-radius:0 0 20px 20px;
+	color:white;
+	font-family:Arial;
+}
+nav ul li{
+	display:inline-block;
+	margin-left:20%;
+}
+footer{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	background:green;
+	height:20px;
+	border-radius:10px;
+	color:white;
+	padding-left:10px;
+	font-family:Arial;
+}
+#dno{height:20px;}
+body{background-image:url("../Шрифт и авки/m-bg.png")}
+#you{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+a:link {
+	color:white;
+}
+a:visited {
+	color:white;
+}
+a:hover {
+	color:white;
+	cursor:pointer;
+}
+a:active {
+	color:green;
+}
+textarea{
+	background-color:darkgreen;
+	color:white;
+	padding:15px 25px 15px 25px;
+	border: 1px solid darkgreen;
+    outline: none;
+    border-radius:10px;
+	width:96%;
+	margin-top:5px;
+	font-size: 12pt;
+	text-indent:30px;
+	margin-left: 5px ;
+}
+.sumbit {
+	background: darkgreen;
+	color: white;
+	border-radius:5px;
+	border:none;
+	cursor:pointer;
+	margin-left:40%;
+	margin-top:5px;
+	font-weight: bolder;
+	text-align:center;
+	padding:10px 45px;
+}
+#left{
+	width:44%;
+	ma
+}
+#right{
+	width:44%;
+	float:right;
+	margin-top:5px;
+}
+input{
+	background:darkgreen;
+	color:white;
+	border:none;
+	border-radius:10px;
+	padding:7px;
+}
+table{
+	border-radius:10px;
+	background:darkgreen;
+	width:100%;
+	text-align:left;
+	margin:0;
+}
+#headtable{
+	height:15px;
+}
+#table{
+	height:200px;
+	overflow:scroll;
+	border-radius:10px;
+}
+#add{
+	margin-left:0;
+}
